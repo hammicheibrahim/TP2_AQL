@@ -109,5 +109,4 @@ public class UserServiceTest {
         assert utilisateurCapture.getEmail().equals(utilisateur.getEmail());
     }
 
-
 }
