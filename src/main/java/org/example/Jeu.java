@@ -4,6 +4,8 @@ public class Jeu {
     private Banque banque;
     private boolean ouvert;
 
+
+
     public Jeu(Banque banque) {
         this.banque = banque;
         this.ouvert = true;

@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15beaafc-59bd-4aa6-a665-ef3780306ee8" name="Changes" comment="exo 2 &amp; exo 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Banque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/De.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Jeu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JeuFermeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Joueur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JeuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="15beaafc-59bd-4aa6-a665-ef3780306ee8" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/De.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/De.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JeuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710856210143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated">
+      <option name="closed" value="true" />
+      <created>1711228433531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711228433531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,7 +157,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="exo 1" />
     <MESSAGE value="exo 2 &amp; exo 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="exo 2 &amp; exo 3" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

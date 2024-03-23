@@ -4,6 +4,9 @@ public class Joueur {
     private int solde;
     private int mise;
 
+
+
+
     public Joueur(int soldeInitial, int mise) {
         this.solde = soldeInitial;
         this.mise = mise;
