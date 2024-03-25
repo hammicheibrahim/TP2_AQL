@@ -1,26 +1,7 @@
 package org.example;
 
-public class Joueur {
-    private int solde;
-    private int mise;
-
-
-
-
-    public Joueur(int soldeInitial, int mise) {
-        this.solde = soldeInitial;
-        this.mise = mise;
-    }
-
-    public void crediter(int montant) {
-        solde += montant;
-    }
-
-    public void debiter(int montant) {
-        solde -= montant;
-    }
-
-    public int mise() {
-        return mise;
-    }
+public interface Joueur {
+    public int mise(); // on suppose que mise positive
+    public void debiter(int somme) throws DebitImpossibleException;
+    public void crediter(int somme);
 }

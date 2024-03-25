@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15beaafc-59bd-4aa6-a665-ef3780306ee8" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BanqueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterfaceJeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Banque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/De.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/De.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DebitImpossibleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Joueur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JeuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JeuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -48,21 +55,22 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;E:/TP_S2/tp2_aql/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.JeuTest">
-    <configuration name="JeuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JeuTest.testBanqueInsolvableApresGain">
+    <configuration name="JeuTest.testBanqueInsolvableApresGain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_aql" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JeuTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testBanqueInsolvableApresGain" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JeuTest.testJouer_JeuFerme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JeuTest.testJeuFerme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_aql" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JeuTest" />
-      <option name="METHOD_NAME" value="testJouer_JeuFerme" />
+      <option name="METHOD_NAME" value="testJeuFerme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,21 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testCreerUtilisateur_exo3_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JeuTest.testJouer_JoueurMiseNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_aql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreerUtilisateur_exo3_3" />
+      <option name="MAIN_CLASS_NAME" value="JeuTest" />
+      <option name="METHOD_NAME" value="testJouer_JoueurMiseNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testCreerUtilisateur_exo3_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JeuTest.testJoueurInsolvable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_aql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreerUtilisateur_exo3_4" />
+      <option name="MAIN_CLASS_NAME" value="JeuTest" />
+      <option name="METHOD_NAME" value="testJoueurInsolvable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JeuTest" />
+        <item itemvalue="JUnit.JeuTest.testBanqueInsolvableApresGain" />
+        <item itemvalue="JUnit.JeuTest.testJoueurInsolvable" />
+        <item itemvalue="JUnit.JeuTest.testJeuFerme" />
+        <item itemvalue="JUnit.JeuTest.testJouer_JoueurMiseNegative" />
         <item itemvalue="JUnit.JeuTest.testJouer_JoueurInsolvable" />
-        <item itemvalue="JUnit.JeuTest.testJouer_JeuFerme" />
-        <item itemvalue="JUnit.UserServiceTest.testCreerUtilisateur_exo3_4" />
-        <item itemvalue="JUnit.UserServiceTest.testCreerUtilisateur_exo3_3" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711228433531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated">
+      <option name="closed" value="true" />
+      <created>1711228592468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711228592468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +183,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/JeuTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

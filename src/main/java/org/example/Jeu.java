@@ -1,17 +1,16 @@
 package org.example;
 
-public class Jeu {
+public class Jeu implements InterfaceJeu {
     private Banque banque;
     private boolean ouvert;
 
-
-
-    public Jeu(Banque banque) {
-        this.banque = banque;
+    public Jeu(Banque labanque) {
+        this.banque = labanque;
         this.ouvert = true;
     }
 
-    public void jouer(Joueur joueur, De de1, De de2) throws JeuFermeException {
+    @Override
+    public void jouer(Joueur joueur, De de1, De de2) throws JeuFermeException, DebitImpossibleException {
         if (!ouvert) {
             throw new JeuFermeException("Le jeu est fermé.");
         }
@@ -35,10 +34,12 @@ public class Jeu {
         }
     }
 
+    @Override
     public void fermer() {
         ouvert = false;
     }
 
+    @Override
     public boolean estOuvert() {
         return ouvert;
     }
